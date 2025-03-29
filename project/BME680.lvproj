@@ -24,6 +24,8 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="SetBitPos.vi" Type="VI" URL="../../BME680/BME680/Private/SetBitPos.vi"/>
+			<Item Name="SetBits.vi" Type="VI" URL="../../BME680/BME680/Private/SetBits.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
