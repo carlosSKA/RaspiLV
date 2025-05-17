@@ -26,10 +26,11 @@
 			<Item Name="BME680_dqmh.lvlib" Type="Library" URL="../Libraries/BME680/BME680_dqmh.lvlib"/>
 			<Item Name="HW-210_dqmh.lvlib" Type="Library" URL="../Libraries/HW-210/HW-210_dqmh.lvlib"/>
 			<Item Name="Motor.lvlib" Type="Library" URL="../Libraries/Motor/Motor.lvlib"/>
-			<Item Name="BME680.lvlib" Type="Library" URL="../../../../BME680/BME680.lvlib"/>
-			<Item Name="HW-201.lvlib" Type="Library" URL="../../../../HW-201/HW-201.lvlib"/>
-			<Item Name="Motorshield.lvlib" Type="Library" URL="../../../../Motorshield/Motorshield.lvlib"/>
 		</Item>
+		<Item Name="Motorshield.lvlib" Type="Library" URL="../../../../Motorshield/Motorshield.lvlib"/>
+		<Item Name="BME680.lvlib" Type="Library" URL="../../../../BME680/BME680.lvlib"/>
+		<Item Name="HW-201.lvlib" Type="Library" URL="../../../../HW-201/HW-201.lvlib"/>
+		<Item Name="PCA9685.lvlib" Type="Library" URL="../../../../pca985/PCA9685.lvlib"/>
 		<Item Name="Application.lvlib" Type="Library" URL="../Libraries/Application/Application.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -132,7 +133,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PCA9685.lvlib" Type="Library" URL="../../../../pca985/PCA9685.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Application" Type="EXE">
